@@ -10,7 +10,7 @@ const CreateDesign = (props) => {
             <h5 className="write">Write :)</h5>
             </div>
             <div className='rightside'>
-                <h3>Create your first entry!</h3>
+                <h3 className="first_entry">Create your first entry!</h3>
                 <ul className="list">
                     <li>click on calendar on the navbar</li>
                     <li>click on any day</li>

@@ -33,9 +33,9 @@ const Video = (props) => (
                     },
                 ]}
             >
-                {/* <div className="text2">
-                    <span className="bye">Thank you!</span>
-                </div> */}
+                <div className="text2">
+                    <span className="bye">By: Deborah Na & Seann Avery</span>
+                </div>
             </ParallaxBanner>
         </ParallaxProvider>
     
