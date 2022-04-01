@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 55vh;
+    width: 35vw;
+    margin-top: 40px; 
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/5412292/pexels-photo-5412292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-form-form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 30pt;
+    margin-top: 0px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.left{
+    width: 400px;
+    height: 500px;
+    /* border: dotted black; */
+    line-height: 2rem;
+    padding: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.right{
+    width: 400px;
+    height: 500px;
+    /* border: dotted black; */
+    padding: 20px;
+    line-height: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.button {
+    margin-top: 30px;
+    -webkit-appearance: none;  
+    background: linear-gradient(to right,rgb(171,59,97) 0%,rgb(174,209,115) 50%,rgb(36,37,130) 100%);
+    background-size: 500%;
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    color: white;
+    cursor: pointer;
+    font: 20pt 'Bubblegum Sans', cursive;
+    -webkit-font-smoothing: antialiased;
+    height: 60px;
+    letter-spacing: .05em;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    width: 200px;
+}
+button:hover {
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}  
+@keyframes gradient{
+    0% {
+    background-position: 0% 50%
+}
+    100%{
+
+    background-position: 100%;
+}
+}
+
+.postnote{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* left: 522px; */
+    top: 350px;
+    right: 300px;
+    /* left: 300px; */
+}
+
+.love{
+    position: absolute;
+    top: 370px;
+    left: 522px;
+}
+

@@ -1,0 +1,55 @@
+.viewContainer{
+    
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    /* border: black solid 2px; */
+    display:flex;
+    align-content: center;
+    /* background-color: rgb(252,195,189); */
+
+    /* color: white; */
+    /* background-color: rgb(251,192,187); */
+    color: rgb(44,62,80);
+    justify-content: end;
+    padding: 20px;
+    
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.vector{
+    width: 500px;
+    height: 500px;
+    /* object-fit: cover; */
+    /* position: absolute;
+    right: 750px;
+    margin-top: 20px; */
+
+}
+
+.viewTitle{
+    color: white;
+    font-size: 50pt;
+}
+
+h5{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 20pt;
+}
+
+.fit{
+    margin-right: 130px;
+    width: 600px;
+    height: fit-content;
+    margin-top: 20px;
+    background-color: rgb(251,192,187);
+    /* align-content: center; */
+    padding: 20px;
+    border: rgb(197,231,225) solid 3px;
+    font-size: 40pt;
+}

@@ -1,0 +1,85 @@
+.example-calendar-container {
+    width: 100vw;
+    height: 90vh;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    /* margin-left: 50px; */
+    /* background-image: url("https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+     /* background-image: url("https://images.pexels.com/photos/7054754/pexels-photo-7054754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+
+    /* background-image: url("https://images.pexels.com/photos/6193748/pexels-photo-6193748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-image: url("https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-color: rgb(43,214,180); */
+    /* background-image: url("https://images.pexels.com/photos/6978772/pexels-photo-6978772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: contain;
+}
+
+.example-calendar-day {
+    border: 1px solid gray;
+    width: 14.285%;
+    height: 100%;
+}
+
+.example-row {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.example-header3 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.example-header3 h3 {
+    font-size: 20px;
+    
+}
+
+.arrow-left {
+    height: 50px;
+    width: 50px;
+}
+
+.arrow-right {
+    height: 50px;
+    width: 50px;
+}
+
+.example-header2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.example-arrows-div {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.weeks, .dayNum{
+    color: black;
+}
+
+

@@ -1,0 +1,197 @@
+nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 480px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+    
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+    width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+}
+
+.intro1{
+    display:inline-block;
+}
+
+    .intro2{
+    display: inline-block;
+    }
+    .intro3{
+    display: inline-block;
+    }
+    .intro4{
+    display: inline-block;
+    }
+
+        .circle{
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+
+    .welcome{
+    font-size: 40pt;
+    margin-top: 3%;
+    font-family: 'Sacramento', cursive;
+    margin-left: 20px;
+    gap: 20px;
+    }
+    .type{
+        font-family: 'Abril Fatface', cursive;
+        gap: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 24pt;
+        overflow: hidden;
+        border-right: .1em solid rgb(242,132,130);
+        color: rgb(246,195,191);
+        white-space: nowrap; 
+        width: 0;
+        animation: 
+        typing 1.5s steps(30, end) forwards;
+    }
+    .type2{
+        font-family: 'Abril Fatface', cursive;
+        color: rgb(116,241,109);
+        margin-top: 20px;
+        margin-left: 50px;
+        gap: 20px;
+        font-size: 24pt;
+        overflow: hidden;
+        border-right: .1em solid rgb(242,132,130);
+        white-space: nowrap; 
+        width: 0;
+        animation: 
+            typing 1.5s steps(30, end) forwards;
+        animation-delay: 1.5s;
+    }
+    .type3{
+        font-family: 'Abril Fatface', cursive;
+        color: rgb(194,229,223);
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 24pt; 
+        overflow: hidden;
+        border-right: .1em solid rgb(242,132,130); 
+        white-space: nowrap; 
+        width: 0;
+        animation: 
+        typing 1.5s steps(30, end) forwards;
+        animation-delay: 3s;
+    }
+    .type4{
+        font-family: 'Abril Fatface', cursive;
+        color: rgb(236,77,127);
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 24pt;
+        overflow: hidden;
+        margin-top: 6%;
+        border-right: .1em solid rgb(242,132,130); 
+        white-space: nowrap; 
+        width: 0;
+        animation: 
+            typing 1.5s steps(30, end) forwards,
+            blink .75s infinite;
+        animation-delay: 5.5s;
+    }
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+    @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: rgb(242,132,130); }
+    }
